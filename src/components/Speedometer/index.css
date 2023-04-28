@@ -1,0 +1,77 @@
+/* Write your CSS here */
+
+.bg-container {
+  background-color: #07080c;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.card-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.heading {
+  font-size: 32px;
+  font-family: 'Roboto';
+  font-style: italic;
+  color: #ffffff;
+}
+.speed-para {
+  font-size: 22px;
+  font-family: 'Roboto';
+  color: #ffffff;
+  font-weight: 500;
+}
+.instruction-para {
+  font-size: 14px;
+  font-family: 'Roboto';
+  color: #cbd5e1;
+}
+.image {
+  width: 350px;
+  height: 125px;
+}
+.buttons-container {
+  display: flex;
+  justify-content: center;
+}
+
+.accelerate-button {
+  padding: 5px;
+  border-radius: 10px;
+  font-family: 'Roboto';
+  font-size: 14px;
+  color: #cbd5e1;
+  background-color: #0b69ff;
+  border-width: 0px;
+  height: 30px;
+  width: 110px;
+  margin: 10px;
+}
+.break-button {
+  padding: 5px;
+  border-radius: 10px;
+  font-family: 'Roboto';
+  font-size: 14px;
+  color: #94a3b8;
+  background-color: transparent;
+  border: 1px solid #94a3b8;
+  height: 30px;
+  width: 110px;
+  margin: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .image {
+    width: 700px;
+    height: 300px;
+  }
+  .heading {
+    font-size: 48px;
+  }
+}
